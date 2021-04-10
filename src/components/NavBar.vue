@@ -1,6 +1,9 @@
 <template>
     <ul class="nav nav-pills">
       <li class="nav-item">
+      <!-- بستخدم اسم الراوت هنا بقا بس لازم تعمل بايند  -->
+      <!-- router-link بتتحول للينك اتش تي ام ال  -->
+
         <router-link :to="{name: 'home'}" class="nav-link" active-class="active" exact href="#">
           Home
         </router-link>

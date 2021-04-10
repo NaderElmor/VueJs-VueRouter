@@ -5,6 +5,9 @@ import routes from "./routes"
 
 Vue.use(VueRouter);
 const router = new VueRouter({
+  /*
+     فيه اتنين مود هيستوري وهاش بعمل هيستوري عشان يشيل الهاش
+  */
   mode: "history",
   routes: routes
 })
